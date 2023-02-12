@@ -1085,6 +1085,12 @@ select {
 /* for mobile desktop size */
 
 @media all and (min-height:1000px) {
+
+    header .search-address input,
+    button {
+        height: 5.8vh;
+    }
+
     header {
         height: 80vh !important;
     }
@@ -1112,7 +1118,7 @@ select {
     }
 
     .dow-sec-img img:nth-child(1) {
-        height: 25vh;
+        height: 24vh;
     }
 
     .dow-sec-img img:nth-child(2) {
